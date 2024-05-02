@@ -1,4 +1,7 @@
+name: "PLACEHOLDER"
 services:
-  helloworld:
-    image: hello-world
-    container_name: hello_world_container
+
+networks:
+  erebos-net:
+    name: erebos-net
+    external: true
