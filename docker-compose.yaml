@@ -2,6 +2,6 @@ name: "PLACEHOLDER"
 services:
 
 networks:
-  erebos-net:
-    name: erebos-net
+  cloudflared-network:
+    name: cloudflared-network
     external: true
